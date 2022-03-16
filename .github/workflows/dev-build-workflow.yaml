@@ -19,7 +19,7 @@ job:
   unitest:
     name: UnitTest
     runs-on: ubuntu-latest
-    environment: env
+    environment: dev
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
