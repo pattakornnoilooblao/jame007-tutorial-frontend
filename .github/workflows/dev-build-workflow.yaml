@@ -15,7 +15,7 @@ env:
   CONTAINER_REPOSITORY: "acrpattakorntutorial001.azurecr.io"
   IMAGE_TAG: "0.0.1-SNAPSHOT"
 
-job:
+jobs:
   unitest:
     name: UnitTest
     runs-on: ubuntu-latest
